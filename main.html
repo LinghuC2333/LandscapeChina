@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta content="width=device-width, initial-scale=1, user-scalable=yes, viewport-fit=cover" name="viewport">
+    <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
+    <title>九州山海志</title>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/main.css" data-type="attach">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/home.js" data-type="attach"></script>
+    <script src="js/common.js" data-type="attach"></script>
+    <script src="js/jquery-3.3.1.js" data-type="attach"></script>
+
+</head>
+
+
+<body>
+
+    <nav class="gnav" id="gnav">
+        <div class="gnav-wrap">
+            <div class="gnav-container">
+                <ul class="gnav-main">
+                    <li class="gnav-main__item">
+                        <a href="sea.html" class="gnav-anc">
+                            <img class="gnav-main__title" id="ocean" src="images/common/title/sea_letter.png" alt="海">
+                            <span class="gnav-main__description">东指羲和能走马 海尘新生石山下</span>
+                        </a>
+                    </li>
+                    <li class="gnav-main__item">
+                        <a href="lake.html" class="gnav-anc">
+                            <img class="gnav-main__title" id="lake" src="images/common/title/lake_letter.png" alt="湖">
+                            <span class="gnav-main__description">沙漠回看清禁月 湖山应梦武林春</span>
+                        </a>
+                    </li>
+
+                    <li class="gnav-main__item">
+                        <a href="river.html" class="gnav-anc">
+                            <img class="gnav-main__title" id="river" src="images/common/title/river_letter.png" alt="川">
+                            <span class="gnav-main__description">百川东到海 何时复西归</span>
+                        </a>
+                    </li>
+
+                    <li class="gnav-main__item">
+                        <a href="mountain.html" class="gnav-anc">
+                            <img class="gnav-main__title" id="mountain" src="images/common/title/mountain_letter.png" alt="山">
+                            <span class="gnav-main__description">会当凌绝顶 一览众山小</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="gnav-news">
+                <ul class="gnav-news-list">
+                    <li class="gnav-news-list__item">
+                        <a href="sea.html" class="anc-hover anc-hover_visible">
+                            <figure class="gnav-news-list__image">
+                                <img src="images/home/sea.jpg" alt="海">
+                            </figure>
+                            <h2 class="gnav-news__title">海阔凭鱼跃，天高任鸟飞。</h2>
+                        </a>
+                    </li>
+
+                    <li class="gnav-news-list__item">
+                        <a href="river.html" class="anc-hover anc-hover_visible">
+                            <figure class="gnav-news-list__image">
+                                <img src="images/common/mountain_hua_01.jpg " alt="川">
+                            </figure>
+                            <h2 class="gnav-news__title">川从陕路去，河绕华阴流。</h2>
+                        </a>
+                    </li>
+                    <li class="gnav-news-list__item">
+                        <a href="lake.html" class="anc-hover anc-hover_visible">
+                            <figure class="gnav-news-list__image">
+                                <img src="images/home/lake.JPG" alt="湖">
+                            </figure>
+                            <h2 class="gnav-news__title">八月白露降，湖中水方老。</h2>
+                        </a>
+                    </li>
+                    <li class="gnav-news-list__item">
+                        <a href="mountain.html" class="anc-hover anc-hover_visible">
+                            <figure class="gnav-news-list__image">
+                                <img src="images/home/mountain.jpg" alt="山">
+                            </figure>
+                            <h2 class="gnav-news__title">暮从碧山下，山月随人归。</h2>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        
+        </div>
+
+    </nav>
+    <header class="header">
+        <div class="header-wrap">
+            <div onclick="switchMode()">
+                <img src="./images/common/moon.svg" id="moon" alt="themeIcon" class="themeIcon">
+            </div>
+            <div class="header-reserve">
+                <a href="#" class="jp">回到顶部</a>
+            </div>
+        </div>
+    </header>
+
+    <h1 class="head-logo" id="h1">
+        <a href="/">
+            <img class="head-logo_img" id="head_logo" src="./images/home/head_logo.png" alt="九州山海志">
+        </a>
+    </h1>
+
+    <main id="state" class="main">
+        <div class="home">
+            <div id="home" class="home-contents pageScrollItem">
+                <h1 class="home-logo"><img src="./images/home/head_logo.png" id="home_logo" alt=""></h1>
+            </div>
+            <div id="intro" class="home-contents pageScrollItem  ">
+                <h2 class="home__title">山</h2>
+                <div class="home-main">
+                    <p class="home-main-catch">会当凌绝顶<br>一览众山小</p>
+                    <div class="home-main-btn"><a href="mountain.html">详情</a></div>
+                </div>
+                <div class="home__video">
+                    <img src="images/home/mountain.jpg" alt="山">
+                </div>
+            </div>
+
+            <div id="rooms" class="home-contents pageScrollItem">
+                <h2 class="home__title">川</h2>
+
+                <div class="home-main">
+                    <p class="home-main-catch">百川东到海<br>何时复西归</p>
+                    <div class="home-main-btn"><a href="river.html">详情</a></div>
+                </div>
+                <div class="home__video">
+                    <img src="images/home/river.png" alt="川">
+                </div>
+            </div>
+
+            <div id="dining" class="home-contents pageScrollItem">
+                <h2 class="home__title">湖</h2>
+
+                <div class="home-main">
+                    <p class="home-main-catch">沙漠回看清禁月<br>湖山应梦武林春</p>
+                    <div class="home-main-btn"><a href="lake.html">详情</a></div>
+                </div>
+                <div class="home__video">
+                    <img src="images/home/lake.JPG" alt="湖">
+                </div>
+            </div>
+
+            <div id="onsen" class="home-contents pageScrollItem">
+                <h2 class="home__title">海</h2>
+                <div class="home-main">
+                    <p class="home-main-catch">海阔凭鱼跃<br>天高任鸟飞</p>
+                    <div class="home-main-btn"><a href="sea.html">详情</a></div>
+                </div>
+                <div class="home__video">
+                    <img src="images/home/sea.jpg" alt="海">
+                </div>
+            </div>
+        </div>
+        <ul class="home-pagination">
+            <li>
+                <a href="" class="home-pagination__anc" data-num="0"></a>
+            </li>
+            <li>
+                <a href="" class="home-pagination__anc" data-num="1"></a>
+            </li>
+            <li>
+                <a href="" class="home-pagination__anc" data-num="2"></a>
+            </li>
+            <li>
+                <a href="" class="home-pagination__anc" data-num="3"></a>
+            </li>
+            <li>
+                <a href="" class="home-pagination__anc" data-num="4"></a>
+            </li>
+        </ul>
+    </main>
+</body>
+
+<script>
+    //设置默认主题色为light
+    var theme = "light"
+
+    //主页、目录的深色/浅色主题变化
+    function switchMode(){
+        
+        var element = document.body
+        element.classList.toggle("darktype")
+
+        //主页图片
+        var icon = document.getElementById('moon')
+        var head_logo = document.getElementById('head_logo')
+        var home_logo = document.getElementById('home_logo')
+        //目录页图片
+        var ocean = document.getElementById("ocean")
+        var lake = document.getElementById("lake")
+        var river = document.getElementById("river")
+        var mountain = document.getElementById("mountain")
+        console.log(theme)
+        if(theme == "dark"){
+            //主页部分图片变化为浅色主题状态
+            icon.src = "./images/common/moon.svg"
+            head_logo.src = "./images/home/head_logo.png"
+            home_logo.src = "./images/home/head_logo.png"
+            ocean.src = "./images/common/title/sea_letter.png"
+            lake.src = "./images/common/title/lake_letter.png"
+            river.src = "./images/common/title/river_letter.png"
+            mountain.src = "./images/common/title/mountain_letter.png"
+            theme = "light"
+            
+        }else{
+            //主页部分图片变化为深色主题状态
+            icon.src = "./images/common/sun.svg"
+            head_logo.src = "./images/home/head_logo_dark.png"
+            home_logo.src = "./images/home/head_logo_dark.png"
+            ocean.src = "./images/common/title/sea_letter_dark.png"
+            lake.src = "./images/common/title/lake_letter_dark.png"
+            river.src = "./images/common/title/river_letter_dark.png"
+            mountain.src = "./images/common/title/mountain_letter_dark.png"
+            theme = "dark"
+            
+        }
+    }
+
+    
+    
+</script>
+
+
+</html>
